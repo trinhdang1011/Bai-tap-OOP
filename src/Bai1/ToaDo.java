@@ -1,7 +1,9 @@
+package Bai1;
 public class ToaDo {
     public int x;
     public int y;
     public String TenToaDo;
+
     public ToaDo() {
     }
 
@@ -34,8 +36,10 @@ public class ToaDo {
     public void setTenToaDo(String tenToaDo) {
         TenToaDo = tenToaDo;
     }
-    public String toString(){
-        System.out.println("Toa Do " + getTenToaDo() + "(" + getX() + "," + getY() + ")") ;
+
+    public String toString() {
+        System.out.println("Toa Do " + getTenToaDo() + "(" + getX() + "," + getY() + ")");
         return null;
     }
+
 }

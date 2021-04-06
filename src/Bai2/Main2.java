@@ -1,6 +1,8 @@
+package Bai2;
+
 import java.util.Scanner;
 
-public class MainCau2 {
+public class Main2 {
     public static void main(String[] args) {
         SinhVien SV1 = new SinhVien(1,"Trinh Van Dang",7,8);
         SinhVien SV2 = new SinhVien(2,"Ly Minh Hung",5,7);
@@ -32,3 +34,5 @@ public class MainCau2 {
         SV3.toString();
     }
 }
+
+

@@ -1,3 +1,5 @@
+package Bai2;
+
 public class SinhVien {
     private int MaSV;
     private String HoTen;

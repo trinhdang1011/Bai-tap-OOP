@@ -1,3 +1,5 @@
+package Bai1;
+
 public class Main {
     public static void main(String[] args) {
         ToaDo TD1 = new ToaDo();
@@ -5,6 +7,5 @@ public class Main {
         TD1.setY(6);
         TD1.setTenToaDo("Diem A");
         TD1.toString();
-
     }
 }
