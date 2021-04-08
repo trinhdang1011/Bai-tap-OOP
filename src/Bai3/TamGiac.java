@@ -1,13 +1,12 @@
 package Bai3;
 
 public class TamGiac {
-    private String TenTG;
     private double a;
     private double b;
     private double c;
     public TamGiac(){}
-    public TamGiac(double a, double b,double c, String TenTG){
-        this.TenTG = TenTG;
+    public TamGiac(double a, double b,double c){
+
         if(a>0 && b>0 &&c>0){
             if(a+b>c && a+c>b && b+c>a){
                 this.a = a;
@@ -69,7 +68,7 @@ public class TamGiac {
         }
     }
     public String toString(){
-        System.out.println(String.format("%10s %5s %5s %5s %10s %25s %30s", TenTG,a,b,c,Chuvi(),Dientich(),Type()));
+        System.out.println(String.format("%10s %5s %5s %5s %10s %25s %30s",a,b,c,Chuvi(),Dientich(),Type()));
         return null;
     }
 }
